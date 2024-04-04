@@ -1,0 +1,62 @@
+ ol,
+ul {
+    list-style: none;
+} 
+.contenedor{
+    background-color:bisque;
+}
+
+header{
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px    
+}
+ /*.menu{
+    background-color: blueviolet; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.2em }*/
+
+    header nav ol { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    gap: 1.2em 
+    }
+header a i{
+    color: rgb(10, 10, 10);
+    font-size: 4em;
+}
+header{
+    background-color: rgb(163, 154, 154);
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+
+}
+.Acerca_de{
+    padding: 2em;
+    line-height: 1.5em
+
+}
+
+.seccion_1 {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Acerca-imagen img{
+     width: 250px;
+     padding: 3em;
+}
+    .seccion_2 img{
+       
+        height:10%;
+    }
